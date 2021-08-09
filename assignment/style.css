@@ -1,6 +1,64 @@
 /* Give your page a fun background color */
+body {
+    background-color: #55348f;
+}
 
 /* Make the header and footer a different color from the background */
+.header, .footer {
+    
+    text-align:center;
+    background-color:grey;
+}
+.header {
+    color:seashell;
+    font-size: 35px;
+    border-style:groove;
+    border-width:thick;
+    border-color:black;
+    padding:15px;
+}
+.footer {
+    float: center;
+    color:seashell;
+    font-size:20px;
+    font-family:cursive;
+    text-align: bottom;
+    border-style:groove;
+    border-width:thick;
+    border-color:black;
+    padding: 15px;
+
+}
+.ul {
+    float:center; 
+    text-align:center;
+    color:seashell;
+    list-style: center;
+    font-family: fantasy;
+    border-style:groove;
+    border-width:thick;
+    border-color:black;
+    padding:15px;
+}
+.column {
+border: 5px solid;
+padding: 5px;
+
+
+
+
+    
+
+}
+.li {
+    float:center;
+    text-align:center;
+    color:seashell;
+    list-style-type: style center;
+}
+
+    
+
 
 /* Align the h1 containing your name in the center of the header*/
 
